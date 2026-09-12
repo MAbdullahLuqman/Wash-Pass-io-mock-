@@ -41,7 +41,7 @@ function AdminLayout() {
               animate={{ opacity: 1 }}
               className="truncate text-[14px] font-semibold tracking-[-0.02em]"
             >
-              Wash Pass Ops
+              SparklePass Demo Ops
             </motion.span>
           )}
         </Link>

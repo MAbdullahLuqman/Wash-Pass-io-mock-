@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/drivers/")({
   head: () => ({
     meta: [
-      { title: "Driver Plans — Unlimited, Flexi & Pay-As-You-Wash | Wash Pass" },
+      { title: "Driver Plans — Unlimited, Flexi & Pay-As-You-Wash | SparklePass Demo" },
       {
         name: "description",
         content:
           "One digital pass for 480+ UK car wash sites. Go unlimited from £14.99/month, buy Flexi credits, or pay as you wash.",
       },
-      { property: "og:title", content: "Wash Pass for Drivers — one pass, every wash" },
+      { property: "og:title", content: "SparklePass Demo for Drivers — one pass, every wash" },
       {
         property: "og:description",
         content: "Unlimited, Flexi and Pay-As-You-Wash plans for 480+ UK sites.",
@@ -71,7 +71,7 @@ function Drivers() {
             Your car, always clean. Without thinking about it.
           </h1>
           <p className="mx-auto mt-5 max-w-lg text-[15px] leading-relaxed text-muted-foreground">
-            One pass works at every Wash Pass site. Pick the plan that matches how often you drive —
+            One pass works at every SparklePass Demo site. Pick the plan that matches how often you drive —
             switch or cancel whenever.
           </p>
         </div>

@@ -7,13 +7,13 @@ import { SpringButton, SPRING } from "@/components/ui/spring-button";
 export const Route = createFileRoute("/app/pass")({
   head: () => ({
     meta: [
-      { title: "My Wash Pass — Digital pass & QR" },
+      { title: "My SparklePass Demo — Digital pass & QR" },
       {
         name: "description",
         content:
-          "Your live Wash Pass: rotating QR code, plan balance and the nearest partner sites with current wait times.",
+          "Your live SparklePass Demo: rotating QR code, plan balance and the nearest partner sites with current wait times.",
       },
-      { property: "og:title", content: "My Wash Pass" },
+      { property: "og:title", content: "My SparklePass Demo" },
       { property: "og:description", content: "Scan to redeem your wash at any partner site." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -66,7 +66,7 @@ function Pass() {
       <div className="mx-auto w-[min(430px,94vw)] py-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-[15px] font-semibold tracking-[-0.02em]">
-            <Sparkles className="size-4 text-primary" /> Wash Pass
+            <Sparkles className="size-4 text-primary" /> SparklePass Demo
           </Link>
           <span className="hairline rounded-full bg-surface/70 px-3 py-1.5 text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
             AB12 CDE
@@ -107,7 +107,7 @@ function Pass() {
               <div
                 className="grid gap-[2px]"
                 style={{ gridTemplateColumns: `repeat(${size}, 8px)` }}
-                aria-label="Wash Pass QR code"
+                aria-label="SparklePass Demo QR code"
                 role="img"
               >
                 {cells.map((on, i) => (

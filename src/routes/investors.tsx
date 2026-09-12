@@ -10,16 +10,16 @@ import { createDoc, isFirebaseConfigured } from "@/lib/firebase";
 export const Route = createFileRoute("/investors")({
   head: () => ({
     meta: [
-      { title: "Wash Pass Pre-Seed — SEIS Investor Portal" },
+      { title: "SparklePass Demo Pre-Seed — SEIS Investor Portal" },
       {
         name: "description",
         content:
-          "Wash Pass pre-seed round: SEIS-approved with 50% income tax relief, £1.4bn UK market, two-sided marketplace traction and a 20+ year founder track record.",
+          "SparklePass Demo pre-seed round: SEIS-approved with 50% income tax relief, £1.4bn UK market, two-sided marketplace traction and a 20+ year founder track record.",
       },
-      { property: "og:title", content: "Wash Pass Pre-Seed — SEIS Investor Portal" },
+      { property: "og:title", content: "SparklePass Demo Pre-Seed — SEIS Investor Portal" },
       {
         property: "og:description",
-        content: "Traction, market size and SEIS tax relief for the Wash Pass pre-seed round.",
+        content: "Traction, market size and SEIS tax relief for the SparklePass Demo pre-seed round.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -58,7 +58,7 @@ function Investors() {
                 <span className="text-gradient">£1.4bn</span> service category.
               </h1>
               <p className="mt-6 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
-                Wash Pass turns a cash-heavy, offline industry into a subscription marketplace.
+                SparklePass Demo turns a cash-heavy, offline industry into a subscription marketplace.
                 Drivers get one pass for every site; operators get demand, software and recurring
                 revenue. We are raising a pre-seed round under SEIS.
               </p>

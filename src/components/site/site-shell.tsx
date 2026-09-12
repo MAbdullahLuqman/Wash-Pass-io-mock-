@@ -20,10 +20,10 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="mx-auto mt-3 w-[min(1180px,94vw)]">
         <div className="panel flex h-14 items-center justify-between px-3 pl-4 shadow-[var(--shadow-elevated)]">
-          <Link to="/" className="brand" aria-label="Wash Pass home">
+          <Link to="/" className="brand" aria-label="SparklePass Demo home">
             <BrandMark />
             <span className="brand-word">
-              wash
+              sparkle
               <br />
               pass
             </span>
@@ -110,7 +110,7 @@ export function Footer() {
           <div className="brand">
             <BrandMark />
             <span className="brand-word">
-              wash
+              sparkle
               <br />
               pass
             </span>
@@ -131,7 +131,7 @@ export function Footer() {
           <FooterCol
             title="Operators"
             items={[
-              { to: "/operators", label: "Why Wash Pass" },
+              { to: "/operators", label: "Why SparklePass Demo" },
               { to: "/operators/calculator", label: "Revenue calculator" },
               { to: "/operators/signup", label: "Apply" },
             ]}
@@ -147,7 +147,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mx-auto mt-10 w-[min(1180px,90vw)] text-xs text-muted-foreground/70">
-        © {new Date().getFullYear()} Wash Pass Ltd. SEIS advance assurance approved. Figures shown
+        © {new Date().getFullYear()} SparklePass Demo Ltd. SEIS advance assurance approved. Figures shown
         are illustrative projections.
       </p>
     </footer>
@@ -157,7 +157,7 @@ export function Footer() {
 function BrandMark() {
   return (
     <span className="brand-mark" aria-hidden="true">
-      <span />
+      SP
     </span>
   );
 }

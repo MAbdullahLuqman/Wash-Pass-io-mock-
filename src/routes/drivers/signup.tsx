@@ -11,13 +11,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/drivers/signup")({
   head: () => ({
     meta: [
-      { title: "Create your Wash Pass — Driver sign up" },
+      { title: "Create your SparklePass Demo — Driver sign up" },
       {
         name: "description",
         content:
-          "Three steps to your digital car wash pass: create your account, add your vehicle registration, pick a plan.",
+          "Three steps to your digital pass: create your account, add your vehicle registration, pick a plan.",
       },
-      { property: "og:title", content: "Driver sign up — Wash Pass" },
+      { property: "og:title", content: "Driver sign up — SparklePass Demo" },
       { property: "og:description", content: "Create your account, add your vehicle, choose a plan." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -67,7 +67,7 @@ function Signup() {
     });
     setSaving(false);
     setDone(true);
-    toast.success("Welcome to Wash Pass", {
+    toast.success("Welcome to SparklePass Demo", {
       description: isFirebaseConfigured()
         ? "Driver created in Firestore · drivers"
         : "Saved locally (mock mode — Firebase not configured)",

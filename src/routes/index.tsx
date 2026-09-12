@@ -11,13 +11,13 @@ import heroOperator from "@/assets/hero-operator-v2.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Wash Pass — One car wash pass, every site near you" },
+      { title: "SparklePass Demo — One digital pass, every site near you" },
       {
         name: "description",
         content:
-          "Wash Pass is the UK car wash marketplace: one digital pass for drivers, a demand engine and recurring revenue for operators.",
+          "SparklePass Demo is the UK car wash marketplace: one digital pass for drivers, a demand engine and recurring revenue for operators.",
       },
-      { property: "og:title", content: "Wash Pass — The car wash marketplace" },
+      { property: "og:title", content: "SparklePass Demo — The car wash marketplace" },
       {
         property: "og:description",
         content:
@@ -76,7 +76,7 @@ const AUDIENCES: Record<
     label: "Operators",
     kicker: "Issue 02 — The Bay",
     headline: ["Empty bays", "cost you money."],
-    lede: "Wash Pass routes paying drivers into your quiet hours and settles every Friday. No hardware to buy, no contract to sign, no software for you to build.",
+    lede: "SparklePass Demo routes paying drivers into your quiet hours and settles every Friday. No hardware to buy, no contract to sign, no software for you to build.",
     cta: { to: "/operators", label: "Grow my site" },
     steps: [
       {
@@ -202,8 +202,8 @@ function Home() {
                     src={HERO_IMAGES[key]}
                     alt={
                       key === "drivers"
-                        ? "Driver showing a Wash Pass QR code beside a freshly washed car"
-                        : "Wash Pass operator dashboard and driver app preview"
+                        ? "Driver showing a SparklePass Demo QR code beside a freshly washed car"
+                        : "SparklePass Demo operator dashboard and driver app preview"
                     }
                     width={1200}
                     height={912}
@@ -341,7 +341,7 @@ function PullQuote() {
       <div className="mx-auto grid w-[min(1180px,90vw)] gap-12 py-24 md:grid-cols-12 md:py-32">
         <blockquote className="md:col-span-8">
           <p className="font-display text-[clamp(2rem,5vw,3.6rem)] leading-[1.05] tracking-[-0.01em]">
-            “Wash Pass filled our Tuesday mornings. It's the first number I check every week —
+            “SparklePass Demo filled our Tuesday mornings. It's the first number I check every week —
             before the till.”
           </p>
           <footer className="mt-8 font-mono text-[11px] uppercase tracking-[0.18em] text-background/60">
@@ -356,7 +356,7 @@ function PullQuote() {
             +31%
           </p>
           <p className="mt-4 text-[13px] leading-[1.7] text-background/70">
-            Average lift across pilot sites, measured against their own pre-Wash-Pass baseline.
+            Average lift across pilot sites, measured against their own pre-SparklePass-Demo baseline.
           </p>
         </div>
       </div>

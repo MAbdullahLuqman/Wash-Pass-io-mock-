@@ -74,14 +74,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Wash Pass — The UK car wash marketplace" },
+      { title: "SparklePass Demo — The UK car wash marketplace" },
       {
         name: "description",
         content:
-          "Wash Pass is a two-sided car wash marketplace: one digital pass for drivers, demand and recurring revenue for operators.",
+          "SparklePass Demo is a two-sided car wash marketplace: one digital pass for drivers, demand and recurring revenue for operators.",
       },
-      { name: "author", content: "Wash Pass" },
-      { property: "og:title", content: "Wash Pass — The UK car wash marketplace" },
+      { name: "author", content: "SparklePass Demo" },
+      { property: "og:title", content: "SparklePass Demo — The UK car wash marketplace" },
       {
         property: "og:description",
         content: "One pass for drivers. A demand engine for car wash operators.",

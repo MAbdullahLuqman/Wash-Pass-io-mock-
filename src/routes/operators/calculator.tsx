@@ -8,16 +8,16 @@ import { SpringButton, SPRING } from "@/components/ui/spring-button";
 export const Route = createFileRoute("/operators/calculator")({
   head: () => ({
     meta: [
-      { title: "Revenue Calculator — Project your off-peak uplift | Wash Pass" },
+      { title: "Revenue Calculator — Project your off-peak uplift | SparklePass Demo" },
       {
         name: "description",
         content:
-          "Drag two sliders to project the extra annual revenue Wash Pass off-peak demand can add to your car wash site.",
+          "Drag two sliders to project the extra annual revenue SparklePass Demo off-peak demand can add to your car wash site.",
       },
-      { property: "og:title", content: "Wash Pass Operator Revenue Calculator" },
+      { property: "og:title", content: "SparklePass Demo Operator Revenue Calculator" },
       {
         property: "og:description",
-        content: "Model extra annual revenue from off-peak Wash Pass demand in real time.",
+        content: "Model extra annual revenue from off-peak SparklePass Demo demand in real time.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -105,7 +105,7 @@ function CalculatorPage() {
 
               <div className="mt-8 space-y-4 border-t border-border/70 pt-6">
                 <UtilBar label="Utilisation today" pct={model.utilisationBefore} tone="muted" />
-                <UtilBar label="With Wash Pass" pct={model.utilisationAfter} tone="primary" />
+                <UtilBar label="With SparklePass Demo" pct={model.utilisationAfter} tone="primary" />
               </div>
             </div>
 

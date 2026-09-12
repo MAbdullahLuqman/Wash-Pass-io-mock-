@@ -11,13 +11,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/operators/signup")({
   head: () => ({
     meta: [
-      { title: "Operator Application — Join the Wash Pass network" },
+      { title: "Operator Application — Join the SparklePass Demo network" },
       {
         name: "description",
         content:
-          "Apply to join Wash Pass: tell us about your site, equipment, bay count and payout details. Live within a week.",
+          "Apply to join SparklePass Demo: tell us about your site, equipment, bay count and payout details. Live within a week.",
       },
-      { property: "og:title", content: "Operator Application — Wash Pass" },
+      { property: "og:title", content: "Operator Application — SparklePass Demo" },
       { property: "og:description", content: "Join the network and fill your off-peak bays." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

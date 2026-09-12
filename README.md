@@ -1,4 +1,4 @@
-# Wash Pass Brilliance
+# SparklePass Demo
 
 ## Development
 
@@ -15,4 +15,4 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
-# Wash-Pass-io-mock-
+# SparklePass-Demo-io-mock-

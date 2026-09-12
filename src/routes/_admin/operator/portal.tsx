@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_admin/operator/portal")({
   head: () => ({
     meta: [
-      { title: "Attendant Scanner — Wash Pass Operator Portal" },
+      { title: "Attendant Scanner — SparklePass Demo Operator Portal" },
       {
         name: "description",
         content:
-          "Fast-action attendant portal: scan a driver's Wash Pass QR, verify the plan and redeem a wash in one tap.",
+          "Fast-action attendant portal: scan a driver's SparklePass Demo QR, verify the plan and redeem a wash in one tap.",
       },
-      { property: "og:title", content: "Wash Pass Attendant Scanner" },
+      { property: "og:title", content: "SparklePass Demo Attendant Scanner" },
       { property: "og:description", content: "Scan, verify and redeem washes in seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

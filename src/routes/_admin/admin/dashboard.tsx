@@ -10,13 +10,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_admin/admin/dashboard")({
   head: () => ({
     meta: [
-      { title: "Marketplace Control Center — Wash Pass Admin" },
+      { title: "Marketplace Control Center — SparklePass Demo Admin" },
       {
         name: "description",
         content:
-          "Live Wash Pass marketplace operations: GMV, active drivers, onboarded sites, runway, operator approvals and SEIS investor leads.",
+          "Live SparklePass Demo marketplace operations: GMV, active drivers, onboarded sites, runway, operator approvals and SEIS investor leads.",
       },
-      { property: "og:title", content: "Wash Pass Marketplace Control Center" },
+      { property: "og:title", content: "SparklePass Demo Marketplace Control Center" },
       { property: "og:description", content: "Live marketplace metrics, approvals and investor leads." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

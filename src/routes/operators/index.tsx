@@ -7,13 +7,13 @@ import { SpringButton, SPRING } from "@/components/ui/spring-button";
 export const Route = createFileRoute("/operators/")({
   head: () => ({
     meta: [
-      { title: "For Car Wash Operators — Fill off-peak bays | Wash Pass" },
+      { title: "For Car Wash Operators — Fill off-peak bays | SparklePass Demo" },
       {
         name: "description",
         content:
-          "Wash Pass sends paying drivers to your quiet hours, automates recurring revenue and settles weekly. No hardware, no lock-in.",
+          "SparklePass Demo sends paying drivers to your quiet hours, automates recurring revenue and settles weekly. No hardware, no lock-in.",
       },
-      { property: "og:title", content: "Wash Pass for Operators" },
+      { property: "og:title", content: "SparklePass Demo for Operators" },
       {
         property: "og:description",
         content: "Monetise off-peak capacity with recurring subscription demand and zero hardware.",
@@ -69,7 +69,7 @@ function Operators() {
               Your bays are empty half the day. We fix that.
             </h1>
             <p className="text-[15px] leading-relaxed text-muted-foreground">
-              Wash Pass is a demand engine plus operating software for independent sites. You keep
+              SparklePass Demo is a demand engine plus operating software for independent sites. You keep
               your brand, your prices and your peak — we bring subscribers into the gaps.
             </p>
           </div>
